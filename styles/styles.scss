@@ -1,0 +1,25 @@
+.article {
+  width: 320px;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+  }
+  &__image {
+    background: aquamarine;
+    height: 100px;
+    @media (min-width: 768px) {
+      width: 280px;
+    }
+  }
+  &__container {
+    @media (min-width: 768px) {
+      width: 300px;
+    }
+  }
+}

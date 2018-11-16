@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.14.3"
+    "sass": "^1.15.0"
   }
 }

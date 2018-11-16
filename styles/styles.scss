@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  @media (min-width: 768px) {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+.article {
+  border-bottom: 1px solid #666;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (min-width: 992px) {
+    flex-direction: row-reverse;
+  }
+  &--switch {
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+  }
+  &__picture {
+    border: 1px solid black;
+    height: 100px;
+    @media (min-width: 768px) {
+      width: 270px;
+    }
+    &--switch {
+      background: black;
+    }
+  }
+  &__container {
+    @media (min-width: 768px) {
+      width: 330px;  
+    }
+  }
+}

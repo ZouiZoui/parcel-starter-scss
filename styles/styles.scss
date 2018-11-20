@@ -1,0 +1,14 @@
+@import './reset';
+@import './variables';
+
+@import './mixins/medias';
+
+@import './components/button';
+@import './components/header';
+@import './components/article';
+
+
+
+body {
+  background: #fdfdfd;
+}

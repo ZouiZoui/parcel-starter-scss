@@ -1,16 +1,26 @@
 .container {
-  width: 1140px;
+  width: 800px;
   margin: 50px auto;
   display: flex;
-  justify-content: space-between; 
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .article {
-  width: 300px;
+  width: 400px;
+  &--end {
+    align-self: self-end;
+  }
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+  }
   &__imgContainer {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    width: 100px;
+    height: 100px;
     background: blue;
     border-radius: 50%;
     &--squarred {

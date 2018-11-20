@@ -1,36 +1,24 @@
+.container {
+  width: 1140px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between; 
+}
+
 .article {
-  font-family: sans-serif;
-  width: 400px;
-  margin: 0 auto;
+  width: 300px;
   &__imgContainer {
-    margin-top: 20px;
-    height: 100px;
-    background: aquamarine;
-    border-radius: 4px;
-    &--isBlue {
-      background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: blue;
+    border-radius: 50%;
+    &--squarred {
+      border-radius: 0;
     }
   }
   &__title {
-    padding: 20px 0;
-    font-size: 24px;
     text-align: center;
+    margin: 20px 0;
   }
-  &__text {
-    font-size: 16px;
-    line-height: 22px;
-  }
-}
-
-.article {
-  // stuff
-}
-.article__imgContainer {
-  // stuff
-}
-.article__title {
-
-}
-.article__text {
-  
 }

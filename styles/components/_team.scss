@@ -1,0 +1,28 @@
+.team {
+  background: #FDFDFD;
+  &__member-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__member {
+    width: 240px;
+  }
+  &__profile-picture {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: aquamarine;
+  }
+  &__name {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  &__bio {
+    font-size: 16px;
+    line-height: 22px;
+    color: darkseagreen;
+  }
+}

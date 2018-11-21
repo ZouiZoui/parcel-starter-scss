@@ -1,0 +1,23 @@
+.article {
+  width: 440px;
+  margin: 60px auto;
+  padding: 10px 20px;
+  border: 1px solid black;
+  &__title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+  }
+  &__summary {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: sans-serif;
+    &--isRed {
+      color: red;
+    }
+  }
+  &__imgContainer {
+    height: 100px;
+    background: aquamarine;
+  }
+}
